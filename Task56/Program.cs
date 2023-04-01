@@ -78,6 +78,6 @@ PrintMatrix(myMatrix);
 SummaryOfRows(myMatrix);
 Console.WriteLine();
 int minRow = RowWithMinSummary(myMatrix);
-Console.WriteLine(minRow);
+Console.WriteLine($"Cтрока с наименьшей суммой - {minRow}");
 
 //Console.WriteLine($"{RowWithMinSummary(myMatrix)} строка");
